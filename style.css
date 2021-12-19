@@ -1,0 +1,95 @@
+.boxes {
+    padding: 1% 2%;
+}
+
+.boxes .formSection {
+    float: left;
+    background-color: rgb(201, 201, 231);
+    width: 35%;
+    height: 87vh;
+    border-style: solid;
+    border-color: rgb(174, 174, 243);
+    /* position: fixed; */
+}
+
+.boxes .formSection h1 {
+    text-align: center;
+}
+
+.boxes .formSection p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.boxes .formSection img[src="googleLogo.png"] {
+    transition: .2s;
+}
+
+.boxes .formSection img[src="googleLogo.png"]:hover {
+    transform: scale(1.3);
+}
+
+.boxes .formSection .inputForm {
+    font-size: 20px;
+    padding: 5% 5%;
+    padding-right: 7%;
+}
+
+.boxes .formSection .inputForm a {
+    float: right;
+    text-decoration: none;
+}
+
+.boxes .formSection input {
+    padding: 2% 2%;
+    font-size: 16px;
+    width: 100%;
+}
+
+.boxes .formSection input[type="submit"] { 
+    color: white;
+    background-color: rgb(86, 86, 255);
+    width: 90%;
+    padding: 2% 0;
+    border: none;
+}
+
+.boxes .formSection input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(60, 60, 250);
+    box-shadow: 0px 0px 8px 3px #888888;
+}
+
+.boxes .formSection .button { 
+    text-align: center;
+    padding: 3% 0;
+}
+
+.boxes .welcome {
+    float: right;
+    text-align: center;
+    background-color: rgb(201, 201, 231);
+    width: 63%;
+    height: 87vh;
+    /* padding: 2%; */
+    border-style: solid;
+    border-color: rgb(174, 174, 243);
+ }
+
+.boxes .welcome .largest {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxes .welcome .large {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxes .welcome img[src="greeting.png"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
