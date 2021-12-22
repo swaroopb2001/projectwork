@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Rock+Salt&display=swap');
+/* font-family: 'Reem Kufi', sans-serif; */
+/* font-family: 'Rock Salt', cursive; */
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+/* <-----Nav  bar----- */
+h1#bmsce{
+    font-family: 'Reem Kufi', sans-serif;
+    display: inline;
+}
+h1#hostel{
+    font-family: 'Rock Salt', cursive ;
+    display: inline;
+    font-size: 1.25em;
+    padding-left: .2em;
+    color: #1f34f0;
+}
+ul li{
+    list-style-type: none;
+    font-family: 'Reem Kufi', sans-serif;
+    display: inline;
+    color: #282828;
+}
+ul li:hover{
+    cursor: pointer;
+}
+ul li:nth-child(3) a{
+    
+    color: #282828;
+}
+/* <-----Sign in button----- */
+ul li:nth-child(6) {
+    background-color: #5465FF;
+    border-radius: 4px;
+    padding: .2em .5em;
+    color: white;
+    font-weight: 50;
+    position: relative;
+    bottom: .15em;
+    /* left: 1em; */
+    
+}
+
+ul li:nth-child(6):hover{
+    cursor: pointer;
+    background-color: #0019FF;
+}
+/* -----Sign in button-----> */
+
+/* <---For girls underline--- */
+ul li:nth-child(4) {
+    border-bottom: 3px solid #5465FF;
+    color: black !important;
+}
+/* ---For girls underline---> */
+ul li:not(:last-child):hover{
+    border-bottom: 3px solid #5465FF;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: .5em;
+    z-index: 3;
+    box-shadow: 0px 1px 2px -2.2px #282828 ;
+    
+}
+
+.nav2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: .35em;
+}
+/* -----Nav  bar-----> */
+
+/* <-----Main----- */
+main{
+    font-size: larger;
+    width: 80%;
+    
+    margin: .5em auto;
+    display: flex;
+}
+/* <----Left Nav---- */
+div.left{
+    width: 10%;
+    font-family: 'Reem Kufi', sans-serif;
+    /* min-height: 24.5em; */
+    height: 40em;
+    display: flex;
+    align-items: center;
+}
+
+
+
+div.left div.ldiv{
+    /* width: 100%; */
+    cursor: pointer;
+    text-align: center;
+    padding: 1.75em 2em;
+    color: #282828;
+    
+    text-align: center;
+}
+div.left div.subleft div:hover{
+    border-top: 1px solid #cdd2ff;
+    border-left: 1px solid #cdd2ff;
+    border-bottom: 1px solid #cdd2ff;
+    border-radius: 4px 0px 0px 4px;
+}
+div.left div.color{
+    /* background-color: #ebedff; */
+    background-color: #f6f7ff;
+    color: black !important;
+    border-radius: 4px 0px 0px 4px;
+    border-top: 1px solid #ebedff;
+    border-left: 1px solid #ebedff;
+    border-bottom: 1px solid #ebedff;
+    /* box-shadow: -1px 1px 5px 1px #cdd2ff,-1px -1px 5px 1px #cdd2ff; */
+}
+/* -----Left Nac----> */
+
+/* <----Right section---- */
+/* <---------MH---------- */
+div.right{
+    font-family: 'Reem Kufi', sans-serif;
+    /* background-color: #ebedff; */
+    background-color: #f6f7ff;
+    overflow: hidden;
+    border-radius: 0px 4px 4px 4px;
+    border-top: 1px solid #ebedff;
+    border-right: 1px solid #ebedff;
+    border-bottom: 1px solid #ebedff;
+    /* overflow: scroll; */
+    width:90%;
+    
+}
+
+div.first{
+    width: 98%;
+    margin: 0% 1%;
+    height: 100%;
+    position: relative;
+    max-height: 745px;
+}
+div.text{
+    
+    color: whitesmoke;
+    
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    width: 92%;
+    
+    margin: 0 3%;
+
+}
+div.text h1{
+    font-weight: 400;
+    font-size: 2em;
+    /* text-indent: -3px; */
+}
+/* <---Location logo---> */
+div.text h1+p{
+    background: url("https://img.icons8.com/color/30/000000/marker--v1.png") no-repeat;
+    background-size: contain;
+    text-indent: 2em;
+    font-weight: 100;
+    padding-top: .7em;
+    font-size: .65em;
+    
+}
+
+
+div.text p.info{
+    margin: 1.25em 0;
+    font-weight: 100;
+    text-align: justify;
+}
+/* <---Read more---> */
+div.text p.info a{
+color: #3fbdf1;
+padding-left: .2em;
+}
+
+div.gradient{
+    text-indent: -10000px;
+    z-index: 1;
+    background-color: #fff;
+    position: absolute;
+    /* top: 2%;
+    left: 1%; */
+    width: 98%;
+    height: 96%;
+    margin: 2% 1%;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, #9e9b9b, #777576, #525152, #303030, #111111);
+    /* Gradient --> https://mycolor.space/gradient?ori=to+bottom&hex=%23C4C4C4&hex2=%23111111&sub=1 */
+    opacity: 0.5;
+}
+div.first img{
+    object-fit: cover;
+    width: 98%;
+    height: 96%;
+    position: absolute;
+    /* left: 1%;
+    top: 2%; */
+    margin: 2% 1%;
+    border-radius: 4px;
+    z-index: 0;
+}
+
+div.second{
+    color: #282828 ;
+    z-index: 2;
+    width: 90%;
+    margin: 0% 5%;  
+    
+}
+div.second h2{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
+
+/* ----------MH---------> */
+/* <---------toggling------- */
+div.ngh2{
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+div.ngh4{
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: auto;
+}
+div.ngh5{
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: auto;
+}
+
+
+
+div.right div.second{
+    display: none;
+}
+
+/* ----Right Section----> */
+/* -----Main-----> */
