@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Rock+Salt&display=swap');
+/* font-family: 'Reem Kufi', sans-serif; */
+/* font-family: 'Rock Salt', cursive; */
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+    
+}
+
+/* <-----Nav  bar----- */
+.nav1 h1#bmsce{
+    font-family: 'Reem Kufi', sans-serif;
+    display: inline;
+}
+.nav1 h1#hostel{
+    font-family: 'Rock Salt', cursive ;
+    display: inline;
+    font-size: 1.25em;
+    padding-left: .2em;
+    color: #1f34f0;
+}
+.nav2 ul li{
+    list-style-type: none;
+    font-family: 'Reem Kufi', sans-serif;
+    display: inline;
+    color: #282828;
+}
+.nav2 ul li:hover{
+    cursor: pointer;
+}
+/* <-----Sign in button----- */
+.nav2 ul li:nth-child(6) {
+    background-color: #5465FF;
+    border-radius: 4px;
+    padding: .2em .5em;
+    color: white;
+    font-weight: 50;
+    position: relative;
+    bottom: .15em;
+    /* left: 1em; */
+    
+}
+
+.nav2 ul li:nth-child(6):hover{
+    cursor: pointer;
+    background-color: #0019FF;
+}
+/* -----Sign in button-----> */
+
+/* <---For boys underline--- */
+.nav2 ul li:nth-child(5){                 /* Change the index depending on the web page */
+    border-bottom: 3px solid #5465FF;
+    color: black !important;
+}
+/* ---For boys underline---> */
+
+nav{
+    width: 90%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: .5em;
+    z-index: 3;
+    box-shadow: 0px 1px 2px -2.2px #282828 ;
+    
+}
+
+.nav2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav2 ul{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: .35em;
+}
+/* -----Nav  bar-----> */
